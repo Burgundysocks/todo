@@ -10,13 +10,13 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class TodoDTO {
-    private Integer id;
+    private Long id;
     private Long userId;
     private Integer categoryId;
     private String title;
     private String description;
-    private String status;
-    private String priority;
+    private Status status;
+    private Priority priority;
     private String dueDate;
     private String createdAt;
     private String updatedAt;
